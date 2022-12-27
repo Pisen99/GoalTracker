@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #8EB69B;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* --------------------------------------- Menu options & logo */
+a {
+    text-decoration: none;
+    color: #8EB69B;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo {
+    font-size: 10rem;
+    cursor: pointer; 
+
+    background-color: #235347;
+    border-radius: 50%;
+}
+
+.options {
+    height: 4vh;
+    width: 20vw;
+
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+
+    cursor: pointer;
+    outline: none;
+
+    background-color: #235347;
+}
