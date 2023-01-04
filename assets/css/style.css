@@ -1,42 +1,74 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #8EB69B;
+    background-color: rgb(128,167,135);
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-/* --------------------------------------- Menu options & logo */
+/* --------------------------------------- Styling singel elements */
 a {
     text-decoration: none;
-    color: #8EB69B;
+    color: rgb(128,167,135);
 }
 
+li {
+    list-style: none;
+}
+
+/* --------------------------------------- Styling hr (section divider) */
+#line-break {
+    border-radius: 50%;
+    border: none;
+    height: 5px;
+    background: rgb(2,48,32);
+}
+
+/* --------------------------------------- Styling out-logo img */
+#our-logo {
+    height: 32vh;
+    width: 20vw;
+    border-radius: 50%;
+    box-shadow: -1px -2px 20px 1px rgb(2,48,32);
+}
+
+#our-logo:hover {
+    box-shadow: -1px -2px 20px 13px rgb(168, 219, 177);
+}
+
+/* --------------------------------------- Styling navbar */
 #menu {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 #logo {
     font-size: 10rem;
-    cursor: pointer; 
-
-    background-color: #235347;
+    cursor: pointer;
+    background-color: rgb(2,48,32);
     border-radius: 50%;
 }
 
 .options {
     height: 4vh;
     width: 20vw;
+    padding-top: 1rem;
 
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 1rem;
+    text-align: center;
 
     cursor: pointer;
     outline: none;
 
-    background-color: #235347;
+    background-color: rgb(2,48,32);
+    box-shadow: -1px -2px 20px 1px rgb(2,48,32);
+}
+
+.options:hover {
+    box-shadow: -1px -2px 20px 13px rgb(168, 219, 177);
 }
